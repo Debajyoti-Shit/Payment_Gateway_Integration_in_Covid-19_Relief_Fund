@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Quintessential&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+body {
+  /*background-image: url('./images/WHOCOVID_19.webp');*/
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  opacity: 0.9;
+  visibility: visible;
+  background: scroll;
+  background-color: #04130a;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+  color: rgb(7, 202, 72);
+
+  line-height: 0pt;
+}
+#marquee {
+  width: 100%;
+  direction: ltr;
+  height: auto;
+  color: #fff;
+}
+
+.nav-item {
+  margin-right: 2rem;
+}
+.conater {
+  background-size: cover;
+  object-fit: cover;
+  height: min-content;
+  width: auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.title {
+  font-family: cursive;
+  text-align: center;
+  margin-top: 10px;
+  letter-spacing: 0.5px;
+}
+.donation_div {
+  margin: 0;
+  height: 70vh;
+  width: 100vw;
+  overflow: hidden;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  background-image: url("./images/p1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: color;
+}
+#leftdiv {
+  margin-right: auto;
+  margin-left: auto;
+}
+#rightdiv {
+  margin-left: auto;
+  margin-right: auto;
+}
+.box {
+  text-decoration: none;
+  width: 530px;
+  height: 350px;
+  padding-top: 60px;
+  padding-right: 35px;
+  padding-bottom: 35px;
+  padding-left: 35px;
+  border-radius: 40px;
+  box-shadow: 13px 13px 20px #65ceb7, -13px -13px 20px rgb(112, 233, 207);
+}
+
+#middiv {
+  /* background-image: url(./images/covid-19\ rf.jpeg); */
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.box_text {
+  font-family: "Quintessential", cursive;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  margin-bottom: 60px;
+  color: #04290b;
+  font-weight: 800;
+  text-shadow: 5px 5px 8px #fffcfc;
+}
+.quete {
+  font-family: "Quintessential", cursive;
+  font-size: 38px;
+  text-align: auto;
+  letter-spacing: auto;
+  margin-bottom: 10px;
+  color: #0d0b83;
+  font-weight: 800;
+  text-shadow: 5px 5px 8px #fffcfc;
+}
+
+.donate_button {
+  text-decoration: none;
+  border-color: #099956;
+  padding: 20px;
+  margin-left: 40%;
+  margin-bottom: auto;
+  background-color: #12a55b;
+  border-radius: 20px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  box-shadow: 3px 3px 8px #4bdf4b, -3px -3px 8px rgb(31, 139, 55);
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.donate_button:hover {
+  background-color: #fff;
+  color: #05ad5f;
+  border-color: #05ad2f;
+}
+#footer {
+  background-color: #021306;
+}
+footer > ul > li {
+  background-color: rgb(15, 16, 17);
+  color: #fff;
+}
+
+#lab_social_icon_footer {
+  padding: 40px 0;
+  background-color: #ecf5f0;
+}
+
+#lab_social_icon_footer a {
+  color: #333;
+}
+
+#lab_social_icon_footer .social:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+#lab_social_icon_footer .social {
+  -webkit-transform: scale(0.8);
+  /* Browser Variations: */
+
+  -moz-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+}
+/*
+    Multicoloured Hover Variations
+*/
+
+#lab_social_icon_footer #social-fb:hover {
+  color: #3b5998;
+}
+#lab_social_icon_footer #social-github:hover {
+  color: #000000;
+}
+#lab_social_icon_footer #social-linkedin:hover {
+  color: #2e51b1;
+}
+
+#lab_social_icon_footer #social-tw:hover {
+  color: #4099ff;
+}
+
+#lab_social_icon_footer #social-gp:hover {
+  color: #d34836;
+}
+
+#lab_social_icon_footer #social-em:hover {
+  color: #f39c12;
+}
